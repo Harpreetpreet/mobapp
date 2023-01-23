@@ -1,12 +1,14 @@
 import React from 'react'
 import Banner from '../Components/Banner'
-import Feature from '../Components/Feature'
+import Highlight from '../Components/Highlight'
 import Footer from '../Components/Footer'
-import Functions from '../Components/Functions'
+import Feature from '../Components/Feature'
 import Appdiscover from '../Components/Appdiscover'
 import Tags from '../Components/Tags'
 import Applaunch from '../Components/Applaunch'
 import Createaccount from '../Components/Createaccount'
+
+
 
 
 const index = () => {
@@ -16,9 +18,9 @@ const index = () => {
       <Footer />
       <Banner />
       <Tags />
-      <Feature />
+      <Highlight/>
       <Appdiscover />
-      <Functions />
+      <Feature />
       <Applaunch />
       <Createaccount />
 
