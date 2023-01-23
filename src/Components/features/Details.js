@@ -27,9 +27,9 @@ const Details = ({ isReverse, heading, title, details }) => {
             {heading}
           </h1>
           <h3 className="md:text-xl text-pink-500 py-3">{title}</h3>
-          <p className="prose prose-a:text-blue-600 prose-strong:text-red-500 text-gray-500 py-6">
+          <article  className="prose prose-a:text-blue-600 prose-strong:text-red-500 text-gray-500 py-6">
             <ReactMarkdown>{details}</ReactMarkdown>
-          </p>
+          </article>
         </div>
         {isReverse && (
           <div className="flex justify-center">
