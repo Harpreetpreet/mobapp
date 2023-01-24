@@ -6,7 +6,7 @@ import ComponentHeader from './global/ComponentHeader';
 export default function Feature() {
   const [activeTab, setActiveTab] = useState('communication');
   return (
-    <section className="bg-slate-200">
+    <section className="bg-slate-200" id="Feature">
       <div className="container mx-auto md:py-20 py-8 md:px-16 px-4">
         <ComponentHeader heading="FEATURES" title="Do more with our app" />
         <div className="bg-white my-10">

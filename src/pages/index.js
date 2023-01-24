@@ -7,6 +7,7 @@ import Appdiscover from '../Components/Appdiscover'
 import Tags from '../Components/Tags'
 import Applaunch from '../Components/Applaunch'
 import Createaccount from '../Components/Createaccount'
+import Testimonials from '../Components/Testimonials'
 
 
 
@@ -23,6 +24,7 @@ const index = () => {
       <Feature />
       <Applaunch />
       <Createaccount />
+      <Testimonials />
 
     </div>
   )
