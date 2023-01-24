@@ -1,9 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Slider from 'react-slick';
-import Cardcontent from './Cardcontent';
 import ComponentHeader from './global/ComponentHeader';
-import SliderCard from './SliderCard';
 
 export default function Testimonials() {
   const settings = {
