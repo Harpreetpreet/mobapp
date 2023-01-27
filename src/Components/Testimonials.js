@@ -12,7 +12,8 @@ export default function Testimonials() {
     slidesToScroll: 1,
   };
   return (
-    <div className="container mx-auto md:py-20 py-14">
+    <section >
+    <div className="container mx-auto md:py-20 py-14 px-12">
       <ComponentHeader heading="Testimonials" title="What our customers says" />
       <div className=" justify-center">
         <Slider {...settings}>
@@ -87,5 +88,6 @@ export default function Testimonials() {
         </Slider>
       </div>
     </div>
+    </section>
   );
 }
