@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Createaccount() {
   return (
-    <section className=" bg-slate-200">
+    <section className=" bg-slate-100">
       <div className="container mx-auto px-20 py-20 ">
         <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
           <div className="col-span-2 space-y-16 pt-10">

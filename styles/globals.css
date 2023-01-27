@@ -12,3 +12,22 @@
     background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
 
 }
+.slick-center {
+  transform: scale(1.1) !important;
+
+}
+
+.slick-list {
+  overflow-y: visible !important;
+  overflow-x: clip !important;
+}
+.slick-dots {
+bottom : -75px !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #fc73b4 !important;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
+}

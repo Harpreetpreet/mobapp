@@ -6,7 +6,7 @@ import Cardcontent from './Cardcontent';
 import ComponentHeader from './global/ComponentHeader';
 export default function Highlight() {
   return (
-    <section className="section  bg-slate-200 ">
+    <section className="section  bg-slate-100 ">
       <div className="container mx-auto  md:py-20 py-8 ">
         <ComponentHeader heading="HIGHLIGHTS" title="Feature you love" />
 
