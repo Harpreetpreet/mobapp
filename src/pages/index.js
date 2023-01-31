@@ -9,6 +9,7 @@ import Applaunch from '../Components/Applaunch'
 import Createaccount from '../Components/Createaccount'
 import Testimonials from '../Components/Testimonials'
 import Gallery from '../Components/Gallery'
+import Pricing from '../Components/Pricing'
 
 
 
@@ -27,6 +28,7 @@ const index = () => {
       <Createaccount />
       <Testimonials />
       <Gallery />
+      <Pricing />
 
     </div>
   )
