@@ -10,6 +10,7 @@ import Createaccount from '../Components/Createaccount'
 import Testimonials from '../Components/Testimonials'
 import Gallery from '../Components/Gallery'
 import Pricing from '../Components/Pricing'
+import FAQSection from '../Components/FAQSection'
 
 
 
@@ -21,7 +22,7 @@ const index = () => {
       <Footer />
       <Banner />
       <Tags />
-      <Highlight/>
+      <Highlight />
       <Appdiscover />
       <Feature />
       <Applaunch />
@@ -29,6 +30,7 @@ const index = () => {
       <Testimonials />
       <Gallery />
       <Pricing />
+      <FAQSection />
 
     </div>
   )
