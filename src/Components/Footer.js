@@ -49,7 +49,7 @@ export default function Footer() {
 
       <div className="text-center bg-white py-10 text-gray-500">
         <h3 className="md:text-xl text-xs">
-          COPYRIGHT © 2017. ALL RIGHTS RESERVED. MOBAPP TEMPLATE BY COLORLIB
+        © 2023 Copyright: Tailwind Elements
         </h3>
         <div className="space-x-4 pt-4 text-gray-500 text-xs font-medium">
           <a className=" hover:underline  hover:text-pink-400" href="">

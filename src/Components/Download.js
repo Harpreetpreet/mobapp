@@ -25,7 +25,7 @@ const Download = () => {
               type="button"
               className="flex items-center px-6 py-2.5 bg-white text-purple-900 font-medium md:text-xl text-xs leading-tight  rounded shadow-lg hover:bg-gray-200 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"
             >
-              <AiFillApple className=" h-9 w-10" />
+              <AiFillApple className=" h-9 w-10 text-black" />
               APP STORE
             </button>
             <button
