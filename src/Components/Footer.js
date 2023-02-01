@@ -16,7 +16,7 @@ export default function Footer() {
               <h3>1485 Pacific St, Brooklyn, NY 11216 USA</h3>
             </div>
 
-            <div className=" grid md:grid-cols-2 grid-cols-1 py-6  ">
+            <div className=" grid md:grid-cols-2 grid-cols-1 py-6 text-gray-500 font-medium">
               <div className="flex md:justify-start justify-center space-x-4">
                 <CiMail className="h-5 w-6 " />
 
