@@ -4,7 +4,7 @@ export default function Cardcontent({title,description, icon}) {
   return (
     <div>
       <div className='bg-gradient pl-1'>
-          <div className="bg-white p-5 flex items-start">
+          <div className="bg-white p-5 flex items-start pb-10">
             <span className="text-pink-600"
             >
             {icon}

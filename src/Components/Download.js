@@ -20,7 +20,7 @@ const Download = () => {
             empowerment.
           </p>
         </div>
-        <div class="flex md:space-x-8 space-x-4 justify-center pt-10 ">
+        <div className="flex md:space-x-8 space-x-4 justify-center pt-10 ">
             <button
               type="button"
               className="flex items-center px-6 py-2.5 bg-white text-purple-900 font-medium md:text-xl text-xs leading-tight  rounded shadow-lg hover:bg-gray-200 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"

@@ -16,8 +16,8 @@ const Gallery = () => {
     dots: true
   };
   return (
-    <div className=" bg-slate-100">
-      <div className="max-w-[1000px] mx-auto py-20 px-6">
+    <div className=" bg-slate-100 mt-10">
+      <div className="max-w-[1200px] mx-auto py-20 md:px-6">
         <ComponentHeader heading="Gallery" title="App Screenshots" />
         <div className="cursor-pointer py-16 px-6">
           <Slider {...settings}>

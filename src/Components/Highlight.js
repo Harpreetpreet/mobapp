@@ -10,7 +10,7 @@ export default function Highlight() {
       <div className="container mx-auto  md:py-20 py-8 ">
         <ComponentHeader heading="HIGHLIGHTS" title="Feature you love" />
 
-        <div className=" px-4 py-6 sm:px-6 lg:px-8">
+        <div className=" px-4 py-10 sm:px-6 lg:px-8">
           <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
             <Cardcontent
               icon={<BsEmojiSmile className="h-10 w-10" />}

@@ -8,9 +8,9 @@ export default function Appdiscover() {
     <div className="container mx-auto md:px-16 px-6">
       <div className="grid md:grid-cols-2 grid-cols-1  ">
         <div></div>
-        <div className="py-12 z-20">
+        <div className="py-12 z-20 space-y-8">
           <TfiMobile className="h-16 w-12 text-pink-600" />
-          <h2 className=" text-purple-900 md:text-5xl text-3xl py-6">
+          <h2 className=" text-purple-900 md:text-5xl text-3xl ">
             Discover our App
           </h2>
           <p className="text-gray-500">
@@ -18,7 +18,7 @@ export default function Appdiscover() {
             omnis, labore quos cupiditate maxime, vitae, id vero iusto enim amet
             minus libero nihil velit dolore ipsum. Tempore, pariatur sunt?
           </p>
-          <Button> READ MORE</Button>
+          <Button > READ MORE</Button>
         </div>
       </div>
       <div className="md:-mt-32 z-10">

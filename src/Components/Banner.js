@@ -11,7 +11,7 @@ export default function Banner() {
         Mobile App Landing Page Template
     </h1>
   
-    <p className="text-2xl py-10 md:px-32 px-6 ">The one and only solution for any kind of mobila app landing needs. Just change the screenshots and texts and you are good to go.</p>
+    <p className="md:text-2xl text-xl py-10 md:px-32 px-4 ">The one and only solution for any kind of mobila app landing needs. Just change the screenshots and texts and you are good to go.</p>
     <div className="flex justify-center">
     <Image src="/images/iphonex.png.webp" alt="" width={400} height={50} className=""></Image>
     </div>

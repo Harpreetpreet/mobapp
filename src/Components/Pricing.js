@@ -8,7 +8,7 @@ const Pricing = () => {
       <div className="container mx-auto ">
         <ComponentHeader heading="PRICING" title="Upgrade to Pro" />
         <ul className="my-14">
-          <div className="grid md:grid-cols-3 grid-cols-1 gap-6 text-center">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-10 text-center">
             <div className="rounded border-2 py-8">
               <h3 className="text-pink-400">PERSONAL</h3>
               <h1 className="text-4xl text-purple-900 pb-10">$14/m</h1>

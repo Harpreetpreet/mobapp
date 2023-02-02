@@ -13,7 +13,7 @@ export default function Testimonials() {
   };
   return (
     <section >
-    <div className="container mx-auto md:py-20 py-14 px-12">
+    <div className="container mx-auto md:py-20 py-12 space-y-6 px-6">
       <ComponentHeader heading="Testimonials" title="What our customers says" />
       <div className=" justify-center">
         <Slider {...settings}>
@@ -29,7 +29,7 @@ export default function Testimonials() {
                   height={100}
                 />
               </div>
-              <p className="py-10 text-gray-500 text-xl">
+              <p className="py-8 text-gray-500 text-xl">
                 Uniquely streamline highly efficient scenarios and 24/7
                 initiatives. Conveniently embrace multifunctional ideas through
                 proactive customer service. Distinctively conceptualize 2.0
