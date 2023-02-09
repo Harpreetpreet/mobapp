@@ -25,7 +25,7 @@ export default function Footer() {
                     className="hover:text-pink-400"
                     href="harpreet@erharpreet.com"
                   >
-                    harpreet@erharpreet.com
+                    harpreet@email.com
                   </a>
                 </h3>
               </div>

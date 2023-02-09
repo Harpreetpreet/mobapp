@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 export default function Navbar() {
   const [active, setActive] = useState(false);
   return (
-    <div className="container mx-auto">
+    <div className="container sticky top-0  mx-auto">
       <nav className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 md:py-8 py-2">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center ">
@@ -71,7 +71,7 @@ export default function Navbar() {
                   </a>
 
                   <a
-                    href="#"
+                    href="#FEATURES"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     FEATURES
@@ -179,97 +179,6 @@ export default function Navbar() {
         )}
       </nav>
 
-      {/* <nav classNameName="  border-gray-200 md:p-4 px-2 ">
-        <div classNameName="container flex flex-wrap items-center justify-between mx-auto md:px-14 px-2 ">
-          <a href="#" classNameName="flex items-center">
-            <span classNameName="self-center text-3xl font-bold whitespace-nowrap text-white dark:text-white">
-              MOB<strong>APP</strong>
-            </span>
-          </a>
-          <button
-            data-collapse-toggle="navbar-dropdown"
-            type="button"
-            classNameName="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-dropdown"
-            aria-expanded="true"
-          >
-            <span classNameName="sr-only">Open main menu</span>
-            <svg
-              classNameName="w-6 h-6"
-              aria-hidden="true"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-          </button>
-          <div
-            classNameName="hidden w-full md:block  md:w-auto"
-            id="navbar-dropdown"
-          >
-            <div classNameName="text-2xl">
-            <ul classNameName="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:border-gray-700 text-white">
-              <li>
-                <a
-                  href="#"
-                  classNameName="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-black md:dark:bg-transparent "
-                  aria-current="page"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#Feature"
-                  classNameName="block py-2 pl-3 pr-4  rounded md:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent "
-                  aria-current="page"
-                >
-                  Features
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  classNameName="block py-2 pl-3 pr-4 bg-blue-700 rounded md:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
-                  aria-current="page"
-                >
-                  Gallery
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  classNameName="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  classNameName="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  classNameName="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Download
-                </a>
-              </li>
-            </ul>
-            </div>
-          </div>
-        </div>
-      </nav> */}
     </div>
   );
 }
